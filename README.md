@@ -1,2 +1,2 @@
 # ronybase
-dead simple database system for my bots
+super simple JSON database

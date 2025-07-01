@@ -1,20 +1,14 @@
 {
-    "name": "ronybase",
-    "description": "super simple JSON database",
-    "version": "1.0.1",
-    "type": "module",
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "private": false,
-    "license": "MIT",
-    "author": "Rony",
-    "scripts": {
-        "build": "bun build src/index.ts --outdir dist"
-    },
-    "devDependencies": {
-        "@types/bun": "latest"
-    },
-    "peerDependencies": {
-        "typescript": "^5"
-    }
+  "name": "ronybase",
+  "description": "super simple JSON database",
+  "version": "1.0.3",
+  "module": "index.ts",
+  "type": "module",
+  "private": false,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
 }
